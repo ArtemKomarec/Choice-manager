@@ -1,0 +1,59 @@
+/*maybe made positioning in blocks by flex-box*/
+.content {
+}
+
+.firstBlock {
+    display: grid;
+    grid-template-areas: "firstImg aboutProject";
+}
+.secondBlock{
+    display: grid;
+    grid-template-areas: "countOfRegistration countOfGoal";
+}
+.firstImg {
+    grid-area: firstImg;
+}
+
+.aboutProject {
+    grid-area: aboutProject;
+}
+
+.countOfRegistration {
+    grid-area: countOfRegistration;
+}
+
+.countOfGoals {
+    grid-area: countOfGoal;
+}
+
+/*make smth with position of button*/
+.secondImg {
+    grid-area: secondImg;
+    position: relative;
+}
+
+.joinUsLink {
+    position: absolute;
+    top: 173px;
+    left: 468px;
+    font-weight: 700;
+    padding: 10px 200px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #1fafed;
+    border-radius: 30px;
+}
+
+.joinUsLink a:hover {
+    color: #ffffff;
+    background: #32b5ed;
+    box-shadow: 0 0 10px #1fafed;
+}
+
+.joinUsLink a:active {
+    color: #ffffff;
+}
+
+.aboutTeam {
+    grid-area: aboutTeam;
+}
